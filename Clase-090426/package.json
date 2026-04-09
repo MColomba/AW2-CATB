@@ -1,0 +1,21 @@
+{
+  "name": "aw2-catb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MColomba/AW2-CATB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MColomba/AW2-CATB/issues"
+  },
+  "homepage": "https://github.com/MColomba/AW2-CATB#readme"
+}
