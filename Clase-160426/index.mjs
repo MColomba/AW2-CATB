@@ -6,7 +6,7 @@ import path from 'node:path'
 const server = http.createServer((request, response) => {
 
     if (request.method === 'GET') {
-        if (request.url === '/') {de
+        if (request.url === '/') {
             response.statusCode = 200;
             return response.end('We are in root route'); //Nunca puede ponerse el end 2 veces en un mismo ámbito. Por eso se pone el 'return'
         };
