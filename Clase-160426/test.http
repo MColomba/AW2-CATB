@@ -1,0 +1,13 @@
+// Para esto descargar la extensión 'REST Client'
+
+### -------
+
+#GET - 
+
+GET http://localhost:3000
+
+### -------
+
+#GET - 
+
+GET http://localhost:3000/users
