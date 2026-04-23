@@ -1,0 +1,8 @@
+npm -v
+npm init -y
+npm install -D five-server
+npm run dev
+
+en el package.json:
+
+"dev": "node index.mjs"
