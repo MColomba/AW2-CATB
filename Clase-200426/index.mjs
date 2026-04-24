@@ -22,10 +22,25 @@ try {
                 response.method = 200
                 return response.end(usuariosLocal)
             }
-            /*
-            if(request.url === '/usuarios/filtrados'){
+            if (request.url === '/usuarios/filtrados') {
+                // 1 - Leer el archivo guardado
+                const ruta = path.resolve('usuarios.json')
+
+                let usuariosLocal
+                try {
+                    usuariosLocal = await fsp.readFile(ruta, 'utf-8')
+                } catch (error) {
+                    response.statusCode = 404
+                    return response.end('Archivo no encontrado. Ejecutá primero la ruta /usuarios para generarlo.')
+                }
+
+                // 2 - Convertir a objeto JS y filtrar ID menor a 10
+                const usuarios = JSON.parse(usuariosLocal)
+                const usuariosFiltrados = usuarios.filter(usuario => usuario.id < 10)
+
+                response.statusCode = 200
+                return response.end(JSON.stringify(usuariosFiltrados, null, 4))
             }
-            */
         }
         //Fallback
         response.statusCode = 404;
