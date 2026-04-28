@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenidos al sitio web</h1>
+    <img src="./recursos/imagenes/*******" alt="">
+    <script>
+        async function consumirApi(){
+            const respuesta = await fetch('')
+            const productos = await respuesta.json()
+            console.log(productos)
+            productos.map((producto)=>{
+                console.log(producto.imagen)
+            })
+        }
+        consumirApi()
+    </script>
+</body>
+</html>

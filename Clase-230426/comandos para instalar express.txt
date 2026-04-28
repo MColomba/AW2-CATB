@@ -1,2 +1,5 @@
 npm init -y
 npm install express
+
+con este comando instala siempre la misma version
+npm i -E express
