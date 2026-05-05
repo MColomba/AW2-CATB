@@ -4,7 +4,7 @@ const PUERTO = 3000
 
 const app = express()
 
-async function middleware1(req, res, next){
+async function validarCodigo(req, res, next){
     try{
         const codigoReq = Number(req.params.codigo)
 
@@ -23,7 +23,7 @@ async function middleware1(req, res, next){
     
 }
 
-app.get('/:codigo', middleware1, (req, res)=>{
+app.get('/:codigo', validarCodigo, (req, res)=>{
     res.status(200).json({mensaje:'El código es correcto'})
 })
 
