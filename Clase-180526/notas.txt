@@ -1,0 +1,3 @@
+npx npnm i
+
+npx npnm run dev
