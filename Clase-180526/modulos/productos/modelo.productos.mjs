@@ -4,3 +4,7 @@ import productos from '../../productos.mjs'
 export function obtenerProductos(){
     return productos // <--- que estructura de datos voy a maneja y respetarla
 }
+
+export function obtenerProductoPorId(){
+    
+}

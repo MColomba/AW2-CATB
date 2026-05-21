@@ -1,0 +1,4 @@
+npx pnpm i es el equivalente a npm install
+
+npx pnpm run dev
+npx pnpm i -E pg
