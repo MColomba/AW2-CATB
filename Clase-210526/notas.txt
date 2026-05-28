@@ -2,3 +2,11 @@ npx pnpm i es el equivalente a npm install
 
 npx pnpm run dev
 npx pnpm i -E pg
+
+posicionarse en la carpeta del proyecto
+abrir una command prompt
+abrir docker desktop
+docker -v
+crear imagen
+instanciamos el contenedor
+creamos la conexion a traves de la extension database client en vsc
