@@ -5,3 +5,9 @@ container tools
 dev containers
 docker
 database client
+
+npm i -g pnpm
+pn init
+pn add pg express
+pn add -D nodemon
+pn add dotenv

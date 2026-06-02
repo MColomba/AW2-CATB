@@ -1,0 +1,21 @@
+{
+  "name": "clase-280526",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "5.2.1",
+    "pg": "8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.14"
+  }
+}
