@@ -8,6 +8,7 @@ database client
 
 npm i -g pnpm
 pn init
-pn add pg express
+pn add pg express dotenv multer nanoid mime-typess
 pn add -D nodemon
-pn add dotenv
+
+https://www.npmjs.com/package/multer

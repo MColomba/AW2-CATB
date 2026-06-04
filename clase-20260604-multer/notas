@@ -1,0 +1,2 @@
+en la base tendriamos que guardar el nombre del archivo de la imagen
+y despues usar multer para guardar el archivo en una carpeta
