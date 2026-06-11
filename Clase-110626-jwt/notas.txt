@@ -1,0 +1,8 @@
+jwt = json web token
+numero alfanumerico que me sirve como credencial/pase
+
+los datos se guardan en formato json
+
+no ser salame y NUNCA subir el .env, ponerlo en el gitignore
+
+nos recomienda panva/jose porque tiene encriptacion

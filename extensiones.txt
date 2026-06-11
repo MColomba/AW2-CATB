@@ -8,7 +8,10 @@ database client
 
 npm i -g pnpm
 pn init
-pn add pg express dotenv multer nanoid mime-types cookie-parser
+pn add pg express dotenv multer nanoid mime-types cookie-parser jsonwebtoken
 pn add -D nodemon
+pn install --> regenera la carpeta node modules
 
+https://www.npmjs.com/package/jsonwebtoken
+https://www.jwt.io/
 https://www.npmjs.com/package/multer
