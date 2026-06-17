@@ -6,9 +6,10 @@ dev containers
 docker
 database client
 
+
 npm i -g pnpm
 pn init
-pn add pg express dotenv multer nanoid mime-types cookie-parser jsonwebtoken
+pn add pg express dotenv multer nanoid mime-types cookie-parser jsonwebtoken jose
 pn add -D nodemon
 pn install --> regenera la carpeta node modules
 
